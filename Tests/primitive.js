@@ -20,7 +20,10 @@ const obj = {};
 // const func = function(){};
 // On réaffecte la constante => on déclenche une erreur
 obj.blabla = 1;
+obj.blublu = 2;
 console.log(obj);
 console.log(obj.blabla);
 console.log(Object.keys(obj));
+console.log(Object.values(obj));
 console.log(obj["blabla"]);
+console.log(obj.blublu);
